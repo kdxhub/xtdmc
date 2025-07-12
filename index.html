@@ -5,11 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
   <meta name="mobile-web-app-capable" content="yes" />
-  <script src="https://www.xunhaii.com/xtdmc/javascript/sober.min.js"></script>
-  <script src="https://www.xunhaii.com/xtdmc/javascript/pmd-conf.js"></script>
-  <link rel="stylesheet" href="https://www.xunhaii.com/xtdmc/css/sober-theme-turquoise.css" />
-  <link rel="stylesheet" href="https://www.xunhaii.com/xtdmc/css/404page.css" />
-  <link rel="stylesheet" href="https://www.xunhaii.com/xtdmc/css/font.css" />
+  <script src="/javascript/sober.min.js"></script>
+  <script src="/javascript/pmd-conf.js"></script>
+  <link rel="stylesheet" href="/css/sober-theme-turquoise.css" />
+  <link rel="stylesheet" href="/css/404page.css" />
+  <link rel="stylesheet" href="/css/font.css" />
 </head>
 <body>
   <s-page id="pageRoot" theme="light">
@@ -68,7 +68,7 @@
         <s-card id="notice" class="main-card">
           <p>
             <h1 style="font-weight: lighter;">
-              <img src="https://www.xunhaii.com/xtdmc/image/xhi7.png" style="width:1em;vertical-align:baseline;" /> <span id="n"></span>提醒您：<br>
+              <img src="/image/xhi7.png" style="width:1em;vertical-align:baseline;" /> <span id="n"></span>提醒您：<br>
               「你 引 用 的 链 接 又 404 了」<br>
             </h1>
             <small></small>
@@ -102,8 +102,8 @@
       </s-button>
       <s-button slot="action" type="text">确定</s-button>
     </s-dialog>
-    <span id="n" style="display: none;"></span>
+    <div style="display: none;"><span id="n" style="display: none;"></span></div>
     </s-page>
-  <script src="https://www.xunhaii.com/xtdmc/javascript/404page.js"></script>
+  <script src="/javascript/404page.js"></script>
 </body>
 </html>
